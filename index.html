@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ignition — Launch Telemetry</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>🚀 IGNITION <span class="subtitle">launch telemetry</span></h1>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab-button active" data-target="status-panel" role="tab" aria-selected="true">Status Panel</button>
+    <button class="tab-button" data-target="telemetry-board" role="tab" aria-selected="false">Telemetry Board</button>
+    <button class="tab-button" data-target="mission-log" role="tab" aria-selected="false">Mission Log</button>
+  </nav>
+
+  <main>
+    <section id="status-panel" class="view active"></section>
+    <section id="telemetry-board" class="view"></section>
+    <section id="mission-log" class="view"></section>
+  </main>
+
+  <script src="js/status-panel.js"></script>
+  <script src="js/telemetry-board.js"></script>
+  <script src="js/mission-log.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
