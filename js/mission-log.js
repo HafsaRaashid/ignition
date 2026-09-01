@@ -13,7 +13,7 @@ function parseLogFeed(feedText) {
         name,
         altitude: Number(altitude),
         fuel: Number(fuel),
-        stage,
+        stage: stage.trim().toUpperCase(),
       };
     });
 }

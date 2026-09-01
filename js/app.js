@@ -6,6 +6,7 @@ const SAMPLE_FEED = [
   'Artemis-Lite|12.8|8|ABORT',
   'Comet-One|301.5|61|STAGE-SEP',
   'Zephyr|45.0|4|BURN',
+  'Ghost-Probe|99.1|42',
 ].join('\n');
 
 function initTabs() {
