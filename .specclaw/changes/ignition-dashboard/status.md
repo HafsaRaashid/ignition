@@ -13,7 +13,7 @@
 | Design | 🟢 Ready | |
 | Tasks | 🟢 Ready | 7 tasks, 2 waves |
 | Build | 🟢 Complete | 7/7 tasks, merged to main |
-| Verify | ⚪ Pending | |
+| Verify | ❌ Failed |  |
 
 ## Task Progress
 

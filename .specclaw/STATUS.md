@@ -1,7 +1,7 @@
 # 🦞 SpecClaw Dashboard
 
 **Project:** ignition
-**Last Updated:** 2026-09-01 12:49 UTC
+**Last Updated:** 2026-09-03 05:06 UTC
 
 ## Active Changes
 
