@@ -1,7 +1,9 @@
 # 🦞 SpecClaw Dashboard
 
 **Project:** ignition
-**Last Updated:** 2026-09-03 05:06 UTC
+**Last Updated:** 2026-09-03 05:56 UTC
+
+_2 unnumbered changes · run `/specclaw:renumber` to order them_
 
 ## Active Changes
 
@@ -10,7 +12,8 @@
 
 ## Pending Proposals
 
-_None._
+
+- 📋 **fix-crash-in-parsestatusfeed** — proposal ready, awaiting planning
 
 ## Recently Completed
 
