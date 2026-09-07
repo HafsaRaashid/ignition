@@ -1,26 +1,27 @@
 # 🦞 SpecClaw Dashboard
 
 **Project:** ignition
-**Last Updated:** 2026-09-03 05:56 UTC
+**Last Updated:** 2026-09-07 08:15 UTC
 
-_2 unnumbered changes · run `/specclaw:renumber` to order them_
+_1 unnumbered change · run `/specclaw:renumber` to order them_
 
 ## Active Changes
 
-
-- ✅ **ignition-dashboard** — 7/7 tasks (100%) | 0 failed
+_No active changes._
 
 ## Pending Proposals
 
 
-- 📋 **fix-crash-in-parsestatusfeed** — proposal ready, awaiting planning
+- 📋 **002-status-panel-is-blank** — proposal ready, awaiting planning
+- 📋 **003-telemetry-board-is-blank** — proposal ready, awaiting planning
 
 ## Recently Completed
 
-_None._
+
+- ✅ **ignition-dashboard**
 
 ## Stats
 
 - **Total changes:** 1
-- **Active:** 1
-- **Completed:** 0
+- **Active:** 0
+- **Completed:** 1

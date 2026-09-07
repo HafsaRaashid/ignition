@@ -75,7 +75,7 @@ build:
   # minimal tools, cost-aware Claude model from the ladder below. Default
   # off — build dispatches the generic coder exactly as before.
   dynamic_agents:
-    enabled: false
+    enabled: "true"
     ladder:                                    # task tier -> model (cheap -> strong)
       trivial:  "anthropic/claude-haiku-4-5"   # docs / rename / config
       standard: "anthropic/claude-sonnet-5"    # normal impl / test / refactor
@@ -102,7 +102,7 @@ verify:
 
 # Notifications
 notifications:
-  enabled: true
+  enabled: "true"
   channel: "discord"              # "discord" | "telegram" | "slack"
   target: ""                      # Channel/user ID for updates
   on_complete: true
@@ -126,7 +126,7 @@ workflow:
 # Autonomous build→verify→review loop (loop engineering)
 # When enabled, build/verify/review iterate until all gates are green or a guardrail halts.
 loop:
-  enabled: true            # default-on; set false for single-pass build/verify
+  enabled: "true"
   max_iterations: 5        # local inner loop cap
   no_progress_limit: 2     # consecutive identical/empty turns → halt
   guard_action: "revert-tests"   # reward-hack guard: revert-tests | revert-turn
@@ -262,7 +262,7 @@ plugin:
 # Azure DevOps integration (optional)
 # Run `specclaw auth azdo` to configure. Token stored in .specclaw/.env (gitignored).
 azdo:
-  enabled: false
+  enabled: "true"
   org: ""           # Organisation name — part after dev.azure.com/
   project: ""       # ADO project name
   repo: ""          # Repository name within the project
@@ -274,8 +274,8 @@ azdo:
 # Jira integration (optional)
 # Run `specclaw auth jira` to configure. Token stored in .specclaw/.env (gitignored).
 jira:
-  enabled: false
-  domain: ""        # e.g. mycompany.atlassian.net
-  email: ""         # Atlassian account email
-  project_key: ""   # Project key shown in issue IDs, e.g. PROJ
-  issue_type: "Story"  # Default issue type: Story | Task | Bug | Epic
+  enabled: "true"
+  domain: "hafsaraashid.atlassian.net"
+  email: "hafsaraashid1@gmail.com"
+  project_key: "SCRUM"
+  issue_type: "Task"

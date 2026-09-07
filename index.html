@@ -12,15 +12,15 @@
   </header>
 
   <nav class="tabs" role="tablist">
-    <button class="tab-button active" data-target="status-panel" role="tab" aria-selected="true">Status Panel</button>
+    <button class="tab-button" data-target="status-panel" role="tab" aria-selected="false">Status Panel</button>
     <button class="tab-button" data-target="telemetry-board" role="tab" aria-selected="false">Telemetry Board</button>
-    <button class="tab-button" data-target="mission-log" role="tab" aria-selected="false">Mission Log</button>
+    <button class="tab-button active" data-target="mission-log" role="tab" aria-selected="true">Mission Log</button>
   </nav>
 
   <main>
-    <section id="status-panel" class="view active"></section>
+    <section id="status-panel" class="view"></section>
     <section id="telemetry-board" class="view"></section>
-    <section id="mission-log" class="view"></section>
+    <section id="mission-log" class="view active"></section>
   </main>
 
   <script src="js/status-panel.js"></script>
